@@ -80,7 +80,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Exo', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -116,7 +116,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Exo', sans-serif;
 }
 
 ::selection {
@@ -172,7 +172,7 @@ a.main-filled-button {
   padding: 13px 25px;
   background-color: #fff;
   text-transform: uppercase;
-  color: #5fb759;
+  color: #3498DB;
   font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
@@ -183,14 +183,14 @@ a.main-filled-button {
 
 a.main-filled-button:hover {
   color: #fff;
-  background-color: #5fb759;
+  background-color: #3498DB;
 }
 
 a.main-button-icon {
   font-size: 13px;
   border-radius: 25px;
   padding: 13px 25px;
-  background-color: #5fb759;
+  background-color: #3498DB;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -222,7 +222,7 @@ button.main-button {
   padding: 10px 25px;
   background-color: #fff;
   text-transform: uppercase;
-  color: #5fb759;
+  color: #3498DB;
   font-weight: 600;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
@@ -233,7 +233,7 @@ button.main-button {
 
 button.main-button:hover {
   color: #fff;
-  background-color: #5fb759;
+  background-color: #3498DB;
 }
 
 button.main-button-icon {
@@ -242,7 +242,7 @@ button.main-button-icon {
   font-size: 13px;
   border-radius: 25px;
   padding: 13px 25px;
-  background-color: #5fb759;
+  background-color: #3498DB;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -334,11 +334,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #5fb759!important;
+  color: #3498DB!important;
 }
 
 .background-header .nav li a.active {
-  color: #5fb759!important;
+  color: #3498DB!important;
 }
 
 .header-area {
@@ -419,7 +419,7 @@ header
 
 .header-area .main-nav .nav .search-icon a:hover {
   opacity: 1;
-  color: #5fb759!important;
+  color: #3498DB!important;
 }
 
 .header-area .main-nav .nav li a {
@@ -450,7 +450,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #5fb759!important;
+  color: #3498DB!important;
   opacity: 1;
 }
 
@@ -511,7 +511,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #5fb759!important;
+  color: #3498DB!important;
   padding-left: 25px;
 }
 
@@ -647,7 +647,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #5fb759;
+  color: #3498DB;
 }
 
 @media (max-width: 1200px) {
@@ -666,7 +666,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #5fb759!important;
+    color: #3498DB!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -724,7 +724,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #5fb759!important;
+    color: #3498DB!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -871,7 +871,7 @@ banner
 
 .scroll-down a {
   display: inline-block;
-  background-color: #5fb759;
+  background-color: #3498DB;
   width: 60px;
   height: 60px;
   text-align: center;
@@ -972,7 +972,7 @@ about
 }
 
 #about .section-heading h6 {
-  color: #5fb759;
+  color: #3498DB;
 }
 
 #about .service-item {
@@ -982,8 +982,8 @@ about
 #about .service-item img {
   float: left;
   margin-right: 15px;
-  width: 46px;
-  height: 46px;
+  width: 36px;
+  height: 36px;
 }
 
 #about .service-item h4 {
@@ -1259,7 +1259,7 @@ contact
 }
 
 #contact-us .section-heading h6 {
-  color: #5fb759;
+  color: #3498DB;
 }
 
 #contact-us .left-text-content ul li {
@@ -1601,7 +1601,7 @@ portfolio
 }
 #projects .filters ul li.active,
 #projects .filters ul li:hover {
-  color: #5fb759;
+  color: #3498DB;
 }
 #projects .filters-content {
   margin-top: 50px;
@@ -1646,6 +1646,13 @@ portfolio
 #projects .filters-content .item img {
   width: 100%;
 }
+#projects .filters-content .item .product_name {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
+}
 
 #projects {
   padding-top: 120px;
@@ -1656,7 +1663,7 @@ portfolio
 }
 
 #projects .section-heading h6 {
-  color: #5fb759;
+  color: #3498DB;
 }
 
 
