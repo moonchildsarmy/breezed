@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Breezed HTML Bootstrap Template</title>
+    <title>AURORA NRG</title>
 
 <!--
 
@@ -65,9 +65,12 @@ https://templatemo.com/tm-543-breezed
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Главная</a></li>
-                            <li class="scroll-to-section"><a href="#about">О нас</a></li>
-                            <li class="scroll-to-section"><a href="#projects">Наши сервиси</a></li>
+                            <li class="scroll-to-section language_ru"><a href="#top" class="active">Главная</a></li>
+                            <li class="scroll-to-section language_en" style="display: none;"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section language_ru"><a href="#about">О нас</a></li>
+                            <li class="scroll-to-section language_en" style="display: none;"><a href="#top" class="active">About</a></li>
+                            <li class="scroll-to-section language_ru"><a href="#projects">Наши сервиси</a></li>
+                            <li class="scroll-to-section language_en" style="display: none;"><a href="#top" class="active">Our Service</a></li>
                             <!-- <li class="submenu">
                                 <a href="javascript:;">Drop Down</a>
                                 <ul>
@@ -77,10 +80,17 @@ https://templatemo.com/tm-543-breezed
                                     <li><a href="">Blog</a></li>
                                 </ul>
                             </li> -->
-                            <li class="scroll-to-section"><a href="#contact-us">Контакты</a></li> 
+                            <li class="scroll-to-section language_ru"><a href="#contact-us">Контакты</a></li> 
+                            <li class="scroll-to-section language_en" style="display: none;"><a href="#top" class="active">Contact</a></li>
                             <!-- <div class="search-icon">
                                 <a href="#search"><i class="fa fa-search"></i></a>
                             </div> -->
+                            <li class="list text-center mt-6 language_ru">
+                                <a onclick="changeLanguage('en')" class="btn btn-default" href="#"><span class="flag-icon"><img src="assets/images/flag-icon.jpg" alt=""/></span> English &nbsp;</a>
+                            </li>
+                            <li class="list text-center mt-6 language_en" style="display: none">
+                                <a onclick="changeLanguage('ru')" class="btn btn-default" href="#"><span class="flag-icon"><img src="assets/images/russia.png" alt="" style="width: 20px;"/></span> Russia &nbsp;</a>
+                            </li>
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -94,7 +104,7 @@ https://templatemo.com/tm-543-breezed
     <!-- ***** Header Area End ***** -->
     
     <!-- ***** Search Area ***** -->
-    <div id="search">
+    <!-- <div id="search">
         <button type="button" class="close">×</button>
         <form id="contact" action="#" method="get">
             <fieldset>
@@ -104,7 +114,7 @@ https://templatemo.com/tm-543-breezed
                 <button type="submit" class="main-button">Search</button>
             </fieldset>
         </form>
-    </div>
+    </div> -->
 
     <!-- ***** Main Banner Area Start ***** -->
     <div class="main-banner header-text" id="top">
@@ -116,9 +126,11 @@ https://templatemo.com/tm-543-breezed
                 <div class="text-content">
                   <!-- <h3>Welcome To Breezed</h3> -->
                   <h5>AURORA NRG</h5>
-                  <p style="font-size: 15px; color: #fff; margin-bottom: 30px;">Компания Aurora NRG занимается закупками и поставками нефтепродуктов <br>на рынке Казахстана, Узбекистана, Кыргызстана и Таджикистана.<p>
+                  <p class="language_ru" style="font-size: 15px; color: #fff; margin-bottom: 30px;">Компания Aurora NRG занимается закупками и поставками нефтепродуктов <br>на рынке Казахстана, Узбекистана, Кыргызстана и Таджикистана.<p>
+                  <p class="language_en" style="font-size: 15px; color: #fff; margin-bottom: 30px; display: none;">Aurora NRG is the company engaged in the procurement and supply of petroleum products <br>to markets of Kazakhstan, Uzbekistan, Kyrgyzstan and Tajikistan.<p>
                   <!-- <a href="#" class="main-stroked-button">Learn More</a> -->
-                  <a href="https://telegram.me/+996999006116" class="main-filled-button">Напишите нам в Telegram</a>
+                  <a href="https://telegram.me/+996999006116" class="main-filled-button language_ru">Напишите нам в Telegram</a>
+                  <a href="https://telegram.me/+996999006116" class="main-filled-button language_en" style="display: none;">Write to use in Telegram</a>
                 </div>
             </div>
           </div>
@@ -161,14 +173,17 @@ https://templatemo.com/tm-543-breezed
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="left-text-content">
                         <div class="section-heading">
-                            <h6>О нас</h6>
-                            <h2>Aurora NRG</h2>
+                            <h6>Aurora NRG</h2>
+                            <h2 class="language_ru">О нас</h6>
+                            <h2 class="language_en" style="display: none;">About Us</h6>
+                            
                         </div>
                         <div class="row">
                             <div class="col-md-10 col-sm-10">
                                 <div class="service-item">
                                     <!-- <img src="assets/images/contact-info-03.png" alt=""> -->
-                                    <h4>Мы стремимся к тому, чтобы стать идеальным и долгосрочным партнером для каждого нашего клиента. </h4>
+                                    <h4 class="language_ru">Мы стремимся к тому, чтобы стать идеальным и долгосрочным партнером для каждого нашего клиента. </h4>
+                                    <h4 class="language_en" style="display: none;">We strive to become an ideal and long-term partner for each of our clients. </h4>
                                 </div>
                             </div>
                             <!-- <div class="col-md-6 col-sm-6">
@@ -190,8 +205,11 @@ https://templatemo.com/tm-543-breezed
                                 </div>
                             </div> -->
                             <div class="col-md-12">
-                                <a href="https://telegram.me/+996999006116" class="main-button-icon">
+                                <a href="https://telegram.me/+996999006116" class="main-button-icon language_ru">
                                     Подайте заявку и получите лучшие<br> цены и сроки отгрузок! <i class="fa fa-arrow-right"></i>
+                                </a>
+                                <a href="https://telegram.me/+996999006116" class="main-button-icon language_en" style="display: none">
+                                    Apply now and get the best <br>prices and proper shipment! <i class="fa fa-arrow-right"></i>
                                 </a>
                             </div>
                         </div>
@@ -199,9 +217,12 @@ https://templatemo.com/tm-543-breezed
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="right-text-content">
-                        <p>Наша компания занимается поставками светлых и тёмных нефтепродуктов с НПЗ России, Казахстана, Туркмении, Узбекистана Мы поставляем широкий ассортимент продукции как в розничные сети так и для промышленных потребителей и переработчиков сырья. </p>
-                        <p style="margin-top: 20px;">Доставка производится железнодорожным и автомобильным транспортом.</p>
-                        <p style="margin-top: 20px;">Будем рады получить ваши отзывы, пожелания и предложения. Это помогает нам улучшать сервис, внедрять новые технологии и пополнять каталоги.</p>
+                        <p class="language_ru">Наша компания занимается поставками светлых и тёмных нефтепродуктов с НПЗ России, Казахстана, Туркмении, Узбекистана Мы поставляем широкий ассортимент продукции как в розничные сети так и для промышленных потребителей и переработчиков сырья. </p>
+                        <p class="language_en" style="display: none;">Our company is engaged in the supply of light and dark oil products from refineries in Russia, Kazakhstan, Turkmenistan, Uzbekistan. We offer a wide range of products for industrial consumers and processors of raw materials. </p>
+                        <p class="language_ru" style="margin-top: 20px;">Доставка производится железнодорожным и автомобильным транспортом.</p>
+                        <p class="language_en" style="margin-top: 20px; display: none;">Delivery is made by rail and road. </p>
+                        <p class="language_ru" style="margin-top: 20px;">Будем рады получить ваши отзывы, пожелания и предложения. Это помогает нам улучшать сервис, внедрять новые технологии и пополнять каталоги.</p>
+                        <p class="language_en" style="margin-top: 20px; display: none">We will be glad to receive your feedback, wishes and suggestions. This helps us to improve the service, introduce new technologies and replenish catalogs.</p>
                     </div>
                 </div>
             </div>
@@ -220,7 +241,8 @@ https://templatemo.com/tm-543-breezed
                             <!-- <img src="assets/images/features-icon-1.png" alt=""> -->
                         </div>
                         <div class="features-content">
-                            <h4>Широкий выбор нефтепродукции</h4>
+                            <h4 class="language_ru">Широкий выбор нефтепродукции</h4>
+                            <h4 class="language_en" style="display: none;">A wide range of oil products</h4>
                             <!-- <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
                             <a href="#" class="text-button-icon">
                                 Learn More <i class="fa fa-arrow-right"></i>
@@ -235,7 +257,8 @@ https://templatemo.com/tm-543-breezed
                             <!-- <img src="assets/images/features-icon-1.png" alt=""> -->
                         </div>
                         <div class="features-content">
-                            <h4>Подробный и быстрый расчет цен по зявкам</h4>
+                            <h4 class="language_ru">Подробный и быстрый расчет цен по зявкам</h4>
+                            <h4 class="language_en" style="display: none;">Detailed and fast calculation of prices for applications</h4>
                             <!-- <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
                             <a href="#" class="text-button-icon">
                                 Learn More <i class="fa fa-arrow-right"></i>
@@ -250,7 +273,8 @@ https://templatemo.com/tm-543-breezed
                             <!-- <img src="assets/images/features-icon-1.png" alt=""> -->
                         </div>
                         <div class="features-content">
-                            <h4>Удобные и точные графики поставок</h4>
+                            <h4 class="language_ru">Удобные и точные графики поставок</h4>
+                            <h4 class="language_en" style="display: none;">Convenient and accurate delivery schedules</h4>
                             <!-- <p>Proin euismod sem ut diam ultricies, ut faucibus velit ultricies. Nam eu turpis quam. Duis ac condimentum eros.</p>
                             <a href="#" class="text-button-icon">
                                 Learn More <i class="fa fa-arrow-right"></i>
@@ -304,15 +328,21 @@ https://templatemo.com/tm-543-breezed
         <div class="row">
             <div class="col-lg-3">
                 <div class="section-heading">
-                    <h6>Наши сервисы</h6>
-                    <h2>Наши сервисы</h2>
+                    <h6 class="language_ru">Aurora NRG</h6>
+                    <h6 class="language_en" style="display: none;">Aurora NRG</h6>
+                    <h2 class="language_ru">Наш сервис</h2>
+                    <h2 class="language_en" style="display: none;">Our Service</h2>
                 </div>
                 <div class="filters">
                     <ul>
-                        <li class="active" data-filter="*">Все</li>
-                        <li data-filter=".des">Светлые нефтепродукты</li>
-                        <li data-filter=".dev">Темные рафинированные продукты</li>
-                        <li data-filter=".gra">Сжиженные углеводородные газы</li>
+                        <li class="active language_ru" data-filter="*">Все</li>
+                        <li class="active language_en" style="display: none;" data-filter="*">All</li>
+                        <li class="language_ru" data-filter=".des">Светлые нефтепродукты</li>
+                        <li class="language_en" style="display: none;" data-filter=".des">Light oil products/li>
+                        <li class="language_ru" data-filter=".dev">Темные рафинированные продукты</li>
+                        <li class="language_en" style="display: none;" data-filter=".dev">Dark refined products</li>
+                        <li class="language_ru" data-filter=".gra">Сжиженные углеводородные газы</li>
+                        <li class="language_en" style="display: none;" data-filter=".gra">Liquefied hydrocarbon gases</li>
                     </ul>
                 </div>
             </div>
@@ -322,112 +352,120 @@ https://templatemo.com/tm-543-breezed
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                           <div class="item">
                             <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                              <h5 class="product_name"> Бензины марок АИ-92, АИ-95, АИ-98, АИ-100;</h5>
+                              <h5 class="product_name language_ru"> Бензины марок АИ-92, АИ-95, АИ-98, АИ-100;</h5>
+                              <h5 class="product_name language_en" style="display: none;">  Gasoline grades AI-92, AI-95, AI-98, AI-100</h5>
                             <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
                           </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name"> Бензины класса евро 4 и 5;</h5>
+                                <h5 class="product_name language_ru"> Бензины класса евро 4 и 5;</h5>
+                                <h5 class="product_name language_en" style="display: none;">  Euro class 4 and 5</h5>
                               <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name"> БГС (бензины газовые стабильные)</h5>
+                                <h5 class="product_name language_ru"> БГС (бензины газовые стабильные)</h5>
+                                <h5 class="product_name language_en" style="display: none;">  BGS (stable gas gasoline)</h5>
                               <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name"> Бензины прямогонные (нафта, нефрас)</h5>
+                                <h5 class="product_name language_ru"> Бензины прямогонные (нафта, нефрас)</h5>
+                                <h5 class="product_name language_en" style="display: none;"> Straight-run gasolines (naphtha, nefras)</h5>
                               <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name"> Авиационное топливо ТС-1 и РТ</h5>
+                                <h5 class="product_name language_ru"> Авиационное топливо ТС-1 и РТ</h5>
+                                <h5 class="product_name language_en" style="display: none;"> Aviation fuel TS-1 and RT</h5>
                               <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name">  Керосин</h5>
+                                <h5 class="product_name language_ru">  Керосин</h5>
+                                <h5 class="product_name language_en">  Kerosene</h5>
                               <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name"> ДТ (дизельное топливо) классов</h5>
+                                <h5 class="product_name language_ru"> Дизельное топливо, классов ЕВРО-3-4-5, и внеклассное</h5>
+                                <h5 class="product_name language_en" style="display: none;"> Diesel fuel, classes EURO-3-4-5, and out-of-class</h5>
                               <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
                             </div>
                           </div>
                           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name"> Евро-3-4-5, и внеклассное</h5>
-                              <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
-                            </div>
-                          </div>
-                          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
-                            <div class="item">
-                                <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name"> Печное топливо, Легкие дистилляты</h5>
+                                <h5 class="product_name language_ru"> Печное топливо, Легкие дистилляты</h5>
+                                <h5 class="product_name language_en" style="display: none;"> Heating oil, Light distillates</h5>
                               <!-- <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a> -->
                             </div>
                           </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
                           <div class="item">
                             <h4><i class="fa fa-fire" style="margin-bottom: 15px;"></i></h4>
-                              <h5 class="product_name">Топочные и прямогонные мазуты </h5>
+                              <h5 class="product_name language_ru">Топочные и прямогонные мазуты </h5>
+                              <h5 class="product_name language_en" style="display: none;">Furnace and straight-run fuel oils </h5>
                             <!-- <a href="assets/images/project-big-item-02.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-02.jpg" alt=""></a> -->
                           </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name">Битумы ПБВ (полимерно-битумные вяжущие) 40, 60, 90 </h5>
+                                <h5 class="product_name language_ru">Битумы ПБВ (полимерно-битумные вяжущие) 40, 60, 90 </h5>
+                                <h5 class="product_name language_en" style="display: none;">Bitumens PBB (polymer-bitumen binders) 40, 60, 90 </h5>
                               <!-- <a href="assets/images/project-big-item-02.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-02.jpg" alt=""></a> -->
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name">Битумы БНД (нефтяные дорожные) 40/60 и 60/90 </h5>
+                                <h5 class="product_name language_ru">Битумы БНД (нефтяные дорожные) 40/60 и 60/90 </h5>
+                                <h5 class="product_name language_en" style="display: none;">Bitumen BND (oil road) 40/60 and 60/90 </h5>
                                 <!-- <a href="assets/images/project-big-item-02.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-02.jpg" alt=""></a> -->
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name">Судовое топливо </h5>
+                                <h5 class="product_name language_ru">Судовое топливо </h5>
+                                <h5 class="product_name language_en" style="display: none;"> Marine Fuel </h5>
                                 <!-- <a href="assets/images/project-big-item-02.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-02.jpg" alt=""></a> -->
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all gra">
                           <div class="item">
                             <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                              <h5 class="product_name">Бутан</h5>
+                              <h5 class="product_name language_ru">Бутан</h5>
+                              <h5 class="product_name language_en" style="display: none;">Butane</h5>
                             <!-- <a href="assets/images/project-big-item-03.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-03.jpg" alt=""></a> -->
                           </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all gra">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name">Пропан</h5>
+                                <h5 class="product_name language_ru">Пропан</h5>
+                                <h5 class="product_name language_en" style="display: none;">Propane</h5>
                               <!-- <a href="assets/images/project-big-item-03.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-03.jpg" alt=""></a> -->
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all gra">
                             <div class="item">
                                 <h4><i class="fa fa-fire" style="color: #3498DB; margin-bottom: 15px;"></i></h4>
-                                <h5 class="product_name">Пропано-бутановая смесь</h5>
+                                <h5 class="product_name language_ru">Пропано-бутановая смесь</h5>
+                                <h5 class="product_name language_en" style="display: none;">Propane-butane mixture</h5>
                               <!-- <a href="assets/images/project-big-item-03.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-03.jpg" alt=""></a> -->
                             </div>
                         </div>
@@ -587,8 +625,10 @@ https://templatemo.com/tm-543-breezed
                 <div class="col-lg-4 col-md-4 col-xs-12">
                     <div class="left-text-content">
                         <div class="section-heading">
-                            <h6>Контакты</h6>
-                            <h2>Свяжитесь с нами</h2>
+                            <h6 class="language_ru">Контакты</h6>
+                            <h6 class="language_en" style="display: none;">Contact</h6>
+                            <h2 class="language_ru">Свяжитесь с нами</h2>
+                            <h2 class="language_en" style="display: none;">Contact us</h2>
                         </div>
                         <ul class="contact-info">
                             <li><img src="assets/images/contact-info-01.png" alt="">+996 999 00 61 16</li>
@@ -597,41 +637,31 @@ https://templatemo.com/tm-543-breezed
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-10 col-xs-6">
+                <div class="col-lg-6 col-md-6 col-xs-10">
                     <div class="contact-form">
-                        <form id="contact" action="" method="get">
-                          <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Your Name *" required="">
-                              </fieldset>
+                        <!-- <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/10309/bishkek/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Бишкек</a><a href="https://yandex.ru/maps/10309/bishkek/house/Y00YcAVnT0cEQFpofXRwd3pmZA==/?ll=74.627621%2C42.816648&mode=search&sctx=ZAAAAAgAEAAaKAoSCZ5eKcsQz0JAEdOgaB7A4EtAEhIJ2epySkDM8T8RQwOxbOaQ2j8iBgABAgMEBSgKOABA1QFIAWIkcmVsZXZfcmFua2luZ19mb3JtdWxhPTEuMDpsMl9kYzg1NDY1YhZyZWxldl9oZWF2eV90b3Bfc2l6ZT01YhdyZWxldl9jYWxjX2Rzc21fb25fbDI9MWIbcmVsZXZfaGFyZF9ydWJyaWNfcmVzdWx0cz0wYjxyZWFycj1zY2hlbWVfTG9jYWwvR2VvL0Rpc2FibGVQb3N0ZmlsdHJhdGlvbkZvck1vdmVkVG9PcmdzPTFiM3JlYXJyPXNjaGVtZV9Mb2NhbC9HZW8vUmVhcnJhbmdlTW92ZWRPcmdzVW5kZXJOZXc9MWI0cmVhcnI9c2NoZW1lX0xvY2FsL0dlb3VwcGVyL0hlYXZ5UmFua2luZ0ZvckZ1bGxUb3A9MGIecmFua2luZ19mb3JtdWxhPTEuMDpsMl9kYzg1NDY1agJydZ0BzcxMPaABAKgBAL0BH%2F1xiMIBAQDqAQDyAQD4AQCCAiPQvNC60YAu0JDRgdCw0L3QsdCw0Lks0LQuNDEs0LrQsi41MIoCAJICBTEwMzA5mgIMZGVza3RvcC1tYXBz&sll=74.627623%2C42.816650&sspn=0.012376%2C0.006029&text=%D0%BC%D0%BA%D1%80.%D0%90%D1%81%D0%B0%D0%BD%D0%B1%D0%B0%D0%B9%2C%D0%B4.41%2C%D0%BA%D0%B2.50&utm_medium=mapframe&utm_source=maps&z=16.49" style="color:#eee;font-size:12px;position:absolute;top:14px;">Микрорайон Асанбай, 41 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUn50HzpA" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div> -->
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <label class="language_ru" style="font-weight: bold; font-family: EXO, sans-serif; font-size: 14px;">Ваше Имя</label>
+                                    <label class="language_en" style="font-weight: bold; font-family: EXO, sans-serif; font-size: 14px; display: none;">Your Name</label>
+                                    <input type="text" id="fname" name="fname" required="">
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <label class="language_ru" style="font-weight: bold; font-family: EXO, sans-serif; font-size: 14px;">Номер телефона</label>
+                                    <label class="language_en" style="font-weight: bold; font-family: EXO, sans-serif; font-size: 14px; display: none;">Phone Number</label>
+                                    <input type="text" id="country" name="country" required="">
+                                </div>
+                                <div class="col-lg-12">
+                                    <label class="language_ru" style="font-weight: bold; font-family: EXO, sans-serif; font-size: 14px;">Сообщения</label>
+                                    <label class="language_en" style="font-weight: bold; font-family: EXO, sans-serif; font-size: 14px; display: none;">Message</label>
+                                    <input type="text" rows="6" id="text" name="text" required="">
+                                </div>
+                                <div class="col-lg-12">
+                                    <button id="myBtn" type="submit" class="main-button-icon language_ru">Отправить сообщения</button>
+                                    <button id="myBtn2" type="submit" class="main-button-icon language_en" style="display: none;">Send message</button>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="phone" type="text" id="phone" placeholder="Your Phone" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="email" id="email" placeholder="Your Email *" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="subject" type="text" id="subject" placeholder="Subject">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" class="main-button-icon">Send Message Now <i class="fa fa-arrow-right"></i></button>
-                              </fieldset>
-                            </div>
-                          </div>
                         </form>
                     </div>
                 </div>
@@ -702,6 +732,78 @@ https://templatemo.com/tm-543-breezed
         });
 
     </script>
+    <script>
+		function changeLanguage(language = 'en') {
+			if (language === 'en') {
+				let lang_ru = document.getElementsByClassName('language_en');
+				for (let i = 0; i < lang_ru.length; i++) {
+					lang_ru[i].style.display = 'block'
+				}
+				let lang_en = document.getElementsByClassName('language_ru');
+				for (let i = 0; i < lang_en.length; i++) {
+					lang_en[i].style.display = 'none'
+				}
+			} else {
+				let lang_ru = document.getElementsByClassName('language_en');
+				for (let i = 0; i < lang_ru.length; i++) {
+					lang_ru[i].style.display = 'none'
+				}
+				let lang_en = document.getElementsByClassName('language_ru');
+				for (let i = 0; i < lang_en.length; i++) {
+					lang_en[i].style.display = 'block'
+				}
+			}
+	
+		}
+	</script>
+    <script>
+        document.getElementById("myBtn").addEventListener("click", function(e) {
+        e.preventDefault(); 
+        
+        var name = document.querySelector('input[name="fname"]').value;
+        var phone = document.querySelector('input[name="country"]').value;
+        var text = document.querySelector('input[name="text"]').value;
+        if(!name||!phone||!text){
+alert("Заполните все поля")
+return
+        }
+        var message = `Имя: ${name} Номер телефона: ${phone} Сообщения: ${text}`;
+        
+        var token = "5736411429:AAHbJRMAG5idAHtiftk4z1ePGD6Dab-rPyk";
+        var chat_id = 788908222;
+        var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${message}&parse_mode=markdown`;
+        
+        var oReq = new XMLHttpRequest();
+        oReq.open("GET", url, true);
+        oReq.send();
+        
+        alert("Ваше сообщения успешно отправлено");
+        }); 
+        </script>
+        <script>
+            document.getElementById("myBtn2").addEventListener("click", function(e) {
+            e.preventDefault(); 
+            
+            var name = document.querySelector('input[name="fname"]').value;
+            var phone = document.querySelector('input[name="country"]').value;
+            var text = document.querySelector('input[name="text"]').value;
+            if(!name||!phone||!text){
+alert("Fill in all the fields")
+return
+        }
+            var message = `Имя: ${name} Номер телефона: ${phone} Сообщения: ${text}`;
+            
+            var token = "5736411429:AAHbJRMAG5idAHtiftk4z1ePGD6Dab-rPyk";
+            var chat_id = 788908222;
+            var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${message}&parse_mode=markdown`;
+            
+            var oReq = new XMLHttpRequest();
+            oReq.open("GET", url, true);
+            oReq.send();
+            
+            alert("Your message has been sent successfully");
+            }); 
+        </script>
 
   </body>
 </html>

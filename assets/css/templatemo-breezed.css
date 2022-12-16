@@ -169,6 +169,9 @@ a.main-stroked-button:hover {
 a.main-filled-button {
   font-size: 13px;
   border-radius: 25px;
+  width: 60%;
+  margin: auto 20%;
+  display: block;
   padding: 13px 25px;
   background-color: #fff;
   text-transform: uppercase;
@@ -194,6 +197,7 @@ a.main-button-icon {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
+  width: 90%;
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -913,9 +917,9 @@ ul.slick-dots {
   animation:fadeOutLeft 1s both;
 }
 
-.Modern-Slider .item a {
+/* .Modern-Slider .item a {
   margin: 0 5px;
-}
+} */
 
 .Modern-Slider .item.slick-active h3{
   animation:fadeInDown 1s both 1s;
@@ -1335,8 +1339,8 @@ footer
 
 footer {
   padding: 80px 0px;
-  background: rgb(51,155,158);
-  background: linear-gradient(145deg, rgba(51,155,158,1) 0%, rgba(104,204,152,1) 100%);
+  background: #7cafc0;
+  background: linear-gradient(145deg, #304282 0%, #7cafc0 100%);
 }
 
 footer .left-text-content p {
