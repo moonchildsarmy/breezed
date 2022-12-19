@@ -308,11 +308,10 @@ a.text-button-icon:hover i {
 }
 
 .section-heading h2 {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 800;
   letter-spacing: 1px;
-  margin-top: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 
 
@@ -1281,10 +1280,10 @@ contact
 }
 
 #contact-us {
-  padding: 120px 0px;
-  background-image: url(../images/dotted-map-bg.png);
-  background-position: center center;
-  background-repeat: no-repeat;
+  padding: 60px 0px;
+  /* background-image: url(../images/dotted-map-bg.png); */
+  /* background-position: center center;
+  background-repeat: no-repeat; */
 }
 
 #contact {
